@@ -1,26 +1,19 @@
 # Boston-Bluebikes-Usage-Analysis-and-Seasonal-Demand-Forecasting_
 
 # Summary
-Bike-share programs are cost-effective, environmentally friendly alternate transport offerings that are emerging all over the country. These programs are rental schemes where users can pick up, ride and drop off bicycles at various automated stations across the city. By sharing with others, these public bicycles can be used on an “as-needed” basis, without ownership. The advantages of bike-sharing are numerous, including health benefits, reduced impact to the environment, financial savings for individuals, and much more. 
+Bike-share programs offer an affordable, eco-friendly alternative to traditional transportation, allowing users to rent bikes from automated stations throughout a city and return them at their convenience. By enabling shared use, these systems provide numerous benefits—including improved health, environmental impact reduction, and personal cost savings—without the need for bike ownership.
 
-Despite these advantages, users often report issues with the logistics of bike-sharing schemes, particularly with the flows of usage at different time periods of the day. Focusing specifically on the Boston Bluebikes program, there have been several reports of unavailability of bikes during high periods of passenger traffic during the day, especially at popular dock stations - even with efforts to manually rebalance bicycles from emptier stations multiple times a day [1]. The busiest stations tend to be around academic institutions, where there is a large student footfall. Additionally, the weather impacts the usage of the bikes greatly, regardless of the attempts by Boston Bluebikes management to incentivize rides during the winter months through prizes and challenges [2]. 
+However, despite their advantages, bike-share programs often face logistical challenges, particularly related to bike availability during peak hours. In Boston’s Bluebikes system, riders frequently encounter shortages at busy stations, especially near high-traffic areas like universities, even though bikes are rebalanced across docks multiple times daily. Weather conditions further influence bike usage, with ridership declining significantly in colder months despite management’s incentive efforts.
 
-In this project, we analyze the usage patterns of the Boston Bluebikes program to help understand the seasonal and time period effect on the utilization of the bicycles. We then focus on describing the bike activity near the Northeastern University campus in order to visualize the demand during school terms. Furthermore, we provide a forecast of the demand of Bluebikes around Northeastern for every academic season, allowing for the ability to plan ahead and have a streamlined organization system in place for busier periods around the campus. 
+This project analyzes Boston Bluebikes usage patterns to understand how seasonality and time of day affect bike demand. We focus specifically on Northeastern University, visualizing demand fluctuations during academic terms and forecasting seasonal demand to support better resource planning. 
 
-We made use of the publicly available Boston Bluebikes dataset across the years 2019 - 2022 [3]. The data is in CSV format, consisting of one CSV for each month of the year and 15 columns each. The most significant columns used in our analysis are:
+The analysis uses public Bluebikes data from 2019–2022, provided as monthly CSV files (15 columns each). Key fields include:
+- **Start Time**: When the ride began
+- **Trip Duration**: Ride length in seconds
+- **User Type**: Customer or subscriber
+- **Station Coordinates**: Latitude and longitude of start and end docks
 
-Start Time: Timestamp of when the bike ride began (eg: 1/1/2019  10:09:47 AM)
-
-Trip Duration: Duration of ride in seconds (eg: 371)
-
-User Type: Is the user a regular customer or a subscriber
-
-Start/End Station Latitude and Start/End Station Longitude: Coordinates of the dock stations from where the ride began and ended (eg: 42.358100 and -71.093198)
-              
-We have used ARIMA and LSTM models for seasonal demand forecasting. LSTM was able to give better predictions of  the total rides used from Northeastern University stations in each season.We observed that the fall season had the highest demand, followed by summer, spring and winter. 
-
-
-
+For forecasting, I applied ARIMA and LSTM models, with LSTM delivering superior predictions of seasonal ride volume at Northeastern. Our results show the highest demand occurs in the fall, followed by summer, spring, and winter.
 
 # Usage
 
