@@ -1,4 +1,4 @@
-# Boston-Bluebikes-Usage-Analysis-and-Seasonal-Demand-Forecasting_
+# Bluebikes-Demand-Forecasting-and-Usage-Analysis
 
 # Summary
 Bike-share programs offer an affordable, eco-friendly alternative to traditional transportation, allowing users to rent bikes from automated stations throughout a city and return them at their convenience. By enabling shared use, these systems provide numerous benefits—including improved health, environmental impact reduction, and personal cost savings—without the need for bike ownership.
