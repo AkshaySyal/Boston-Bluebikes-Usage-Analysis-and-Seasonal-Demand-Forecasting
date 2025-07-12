@@ -17,10 +17,7 @@ For forecasting, I applied ARIMA and LSTM models, with LSTM delivering superior 
 
 # Usage
 
-Please copy this link -> https://github.com/Rishab-KH/Boston-Bluebikes-Usage-Analysis-and-Seasonal-Demand-Forecasting_/blob/main/main.ipynb and copy this url to https://nbviewer.org/ for viewing all the interactive visualizations. 
-We can view the interactive plots at github.io ->  https://rishab-kh.github.io//Boston-Bluebikes-Usage-Analysis-and-Seasonal-Demand-Forecasting_//
-
- 
+Please copy this link -> [https://github.com/Rishab-KH/Boston-Bluebikes-Usage-Analysis-and-Seasonal-Demand-Forecasting_/blob/main/main.ipynb](https://github.com/AkshaySyal/Boston-Bluebikes-Usage-Analysis-and-Seasonal-Demand-Forecasting/blob/main/main.ipynb) and copy this url to https://nbviewer.org/ for viewing all the interactive visualizations.  
 
 # References
 [1]https://www.thecrimson.com/article/2022/12/1/Bluebikes-boston-logistics/
